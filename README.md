@@ -43,3 +43,7 @@ Our team chose the challenge "Life Cycle Assessment of Sustainable Packaging." W
 
 - Since autumn 2024, I have been studying computer science (_Informatik_) at the _Hochschule Niederrhein University of Applied Sciences_ (**HSNR**) in Krefeld, North Rhine-Westphalia.
 - My team and I participated in a robotics competition and placed 7th out of 85 teams. Details, the code, and a video can be found at [https://github.com/fxoz/esp](https://github.com/fxoz/esp).
+
+***
+
+***Note:** I have only been active on this GitHub profile since the end of 2024, as I want to separate personal matters from public, academic and professional matters.*
