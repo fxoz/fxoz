@@ -14,6 +14,9 @@ My website: **[frost.cat](https://frost.cat)**
 - In primary school, a friend introduced me to [_Scratch_](https://scratch.mit.edu/users/ikuch/), a simple block-based programming language. I started developing basic 2D games, which quickly became a hobby.
 - Additionally, I enjoyed creating and editing videos for YouTube, regularly uploading entertainment and gaming-related content to several channels. This hobby eventually faded away.
 
+### Pre-2020: MakerSpace, Web Development
+- Until it had to be closed due to the COVID-19 pandemic and organizational difficulties, I was active at a so-called [“MakerSpace” in Kaarst](https://jugendcentrum.de/) every week since about 2018, where we worked on [various projects](https://github.com/makerspace-kaarst), such as a smart home mirror. I learned a lot there - from microcontrollers to my first lines in the Python programming language - and always enjoyed taking part. I also got to know nice people who have supported me in my IT career to this day.
+
 ### 2020: Started Programming with Python
 
 - While I had been using GitHub since 2017, I consider 2020 the year I became an active and enthusiastic programmer, largely due to the [COVID-19 lockdowns](https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Germany).
