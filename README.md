@@ -1,6 +1,6 @@
 ## Hi there!
 
-I am Felix Orosz, an 18-year-old computer science student from Germany. My interests include almost everything related to tech—programming, photography, video editing, PC components, and more.
+I am Felix Orosz, a 19-year-old computer science student from Germany. My interests include almost everything related to tech—programming, photography, video editing, PC components, and more.
 
 Since 2022, I have worked several times at _VDEh-Betriebsforschungsinstitut GmbH_ as a full-stack web developer, primarily during my school vacations.
 
