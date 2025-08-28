@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fxoz.de</title>
+
+    <style>
+        @import url('https://fonts.bunny.net/css?family=Inter:opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+        body {
+            background-color: #16151d;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+
+            position: relative;
+
+            line-height: 1.6;
+        }
+
+        header {
+            height: 20dvh;
+            margin-top: 10rem;
+            position: relative;
+            text-align: center;
+        }
+
+        h1 {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin: 0;
+            font-size: 2em;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .part {
+            opacity: 0;
+            animation: fadeParts 1s ease-in-out forwards;
+            animation-delay: 1s;
+        }
+
+        .partA {
+            transform: translateX(0.74rem);
+        }
+
+        .partB {
+            transform: translateX(3.15rem);
+        }
+
+        @keyframes fadeParts {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        h1 span {
+            display: inline-block
+        }
+
+        .letter {
+            z-index: 100;
+            animation: colorLetters 2s ease-in-out forwards;
+        }
+
+        @keyframes colorLetters {
+            0% {
+                color: rgb(158, 158, 254);
+            }
+
+            100% {
+                color: white;
+            }
+        }
+
+        .letter-f {
+            animation: moveF 2s ease-in-out forwards, colorLetters 2s ease-in-out forwards;
+
+            transform: translateX(-2.74rem);
+        }
+
+        .letter-x {
+            transform: translateX(-2.84rem);
+        }
+
+        .letter-o {
+            transform: translateX(-2.78rem);
+        }
+
+        .letter-z {
+            animation: moveZ 2s ease-in-out forwards, colorLetters 2s ease-in-out forwards;
+        }
+
+        @keyframes moveF {
+            0% {
+                transform: translateX(-2.74rem);
+
+            }
+
+            100% {
+                transform: translateX(-5rem);
+            }
+        }
+
+        @keyframes moveZ {
+            0% {
+                transform: translateX(-2.78rem);
+            }
+
+            100% {
+                transform: translateX(0.25rem);
+            }
+        }
+
+        .bottom {
+            margin-left: -5rem;
+        }
+
+        main {
+            font-size: 14px;
+            text-align: center;
+            margin-block: 10rem;
+            max-width: 600px;
+            margin-inline: auto;
+        }
+
+        footer {
+            text-align: center;
+            opacity: 0.5;
+        }
+
+        a {
+            color: #9e9efe;
+        }
+
+        footer a {
+            color: inherit
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="shadow">
+            <span class="letter letter-f">f</span><span class="letter letter-x">x</span><span
+                class="letter letter-o">o</span><span class="letter letter-z">z</span>
+        </h1>
+        <h1 class="bottom"><span class="part partA">eli</span><span class="part partB">ros</span></h1>
+    </header>
+    <main>
+        Hi! 👋<br />
+        This domain is used for several projects and experiments of mine.<br />
+        Feel free to check out my links below!
+        <br />
+
+        <br />
+        <a href="https://felixorosz.de" target="_blank">felixorosz.de</a>
+        <br />
+        <a href="https://github.com/fxoz" target="_blank">github.com/fxoz</a>
+        <br />
+        <a href="https://www.linkedin.com/in/fxoz" target="_blank">linkedin.com/in/fxoz</a>
+    </main>
+    <footer>
+        &copy; 2025 Felix Orosz //
+        <a href="https://felixorosz.de/impressum" target="_blank">impressum</a>
+        <a href="https://felixorosz.de/datenschutz" target="_blank">datenschutz</a>
+    </footer>
+</body>
+
+</html>
